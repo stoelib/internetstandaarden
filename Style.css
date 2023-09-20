@@ -1,0 +1,23 @@
+h1  {color: brown}
+H2  {color: brown;}
+body {background-color: bisque;}
+
+p{
+    width: 25vw;
+    margin: 0,5em;
+}
+
+div{
+width: 25vw;
+margin: 0,5em;
+}
+
+h2{
+   margin: 0,5em;
+}
+
+div{
+    display: flex
+    justify-content: centre;
+}
+
