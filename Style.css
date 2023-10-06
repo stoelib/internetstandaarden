@@ -28,21 +28,21 @@ body {
     background-color: bisque;
 }
 
-.vlaggen {
+header ul{
     display: flex;
     justify-content: space-between;
     padding: 1em;
     border-block: solid;
     border-color: brown;
-    background-color:antiquewhite; 
-   
+    background-color:antiquewhite;
+    list-style-type: none;
 }
 
-.vlaggen img{
+header li{
     height: 75px;
 }
 
-.vlaggen img:hover{
+header li:hover{
     filter: brightness(45%);
 }
 
@@ -54,7 +54,7 @@ footer ul{
     list-style-type: none;
 }
 
-.linkjes{
+footer li{
     border-style: solid;
     padding-left: 1cm;
     padding-right: 1cm;
@@ -66,7 +66,7 @@ footer ul{
     font-style: black;
 }
 
-.linkjes:hover{
+footer li:hover{
     background-color: brown;
 }
 
